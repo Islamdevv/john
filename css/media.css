@@ -1,0 +1,166 @@
+@media (max-width: 776px) {
+  .container {
+    width: 70%;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .post-bottom {
+    flex-direction: column;
+  }
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .post-top {
+    display: flex;
+    width: 400px;
+  }
+  .box {
+    margin: 20px 0;
+  }
+  .work-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-box {
+    margin: 35px 0;
+    text-align: center;
+    flex-direction: column;
+  }
+  .work-text h3 {
+    font-size: 25px;
+  }
+  .work-text p {
+    font-size: 14px;
+    width: 280px;
+  }
+  .work-text .date {
+    justify-content: flex-start;
+    width: 260px;
+    margin: 17px 0 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    padding: 40px 0 71px 0;
+  }
+  .hero img {
+    width: 190px;
+  }
+  .hero-text h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-text p {
+    margin: 20px 0 20px 0;
+    width: 387px;
+    font-size: 14px;
+  }
+  .hero-text button {
+    width: 143px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .footer-icons span {
+    width: 30px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 30px;
+  }
+  #work {
+    padding: 15px 0 0 0;
+  }
+  #footer {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    display: none;
+  }
+  #hero {
+    padding: 0 0 71px 0;
+  }
+  .hero img {
+    width: 170px;
+  }
+  .hero-text h1 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .hero-text p {
+    margin: 15px 0 20px 0;
+    width: 298px;
+    font-size: 12px;
+  }
+  .hero-text button {
+    width: 129px;
+    height: 32px;
+    font-size: 11px;
+  }
+  .post-top {
+    width: 269px;
+  }
+  .post-bottom h2 {
+    width: 284px;
+    font-size: 20px;
+  }
+  .post-bottom h4 {
+    font-size: 14px;
+  }
+  .post-bottom h4 span {
+    margin: 0 5px;
+  }
+  .post-bottom p {
+    width: 280px;
+    font-size: 12px;
+  }
+  .post-bottom .box {
+    width: 262px;
+    height: 154px;
+  }
+  .work-box img {
+    width: 160px;
+  }
+  .work-text h3 {
+    font-size: 18px;
+  }
+  .work-text .date h6 {
+    width: 40px;
+    height: 13px;
+    line-height: 13px;
+    font-size: 14px;
+  }
+  .work-text .date h5 {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .work-text p {
+    font-size: 11px;
+    width: 179px;
+  }
+  .work-text .date {
+    width: 157px;
+  }
+  .footer-icons span {
+    width: 22px;
+    height: 30px;
+    line-height: 38px;
+    font-size: 24px;
+  }
+  .footer-icons {
+    width: 190px;
+  }
+  .footer h3 {
+    margin-top: 21px;
+    font-size: 15px;
+  }
+}
